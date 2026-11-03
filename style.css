@@ -1,0 +1,143 @@
+/* Algemene opmaak van de pagina */
+body {
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigatiemenu */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #3c6382;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* Hover-effect */
+nav a:hover {
+    background-color: #82ccdd;
+    color: #243b55;
+}
+
+/* Hoofdinhoud */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Paragrafen */
+main p {
+    max-width: 750px;
+    margin: 20px auto;
+    line-height: 1.7;
+}
+
+/* Afbeeldingen */
+main img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Tabellen */
+table {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #3c6382;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf1f5;
+}
+
+/* Contactformulier */
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Verzendknop */
+button {
+    background-color: #3c6382;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #82ccdd;
+    color: #243b55;
+}
+
+/* Footer */
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}

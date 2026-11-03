@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #243b55;
+            padding: 25px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Menu */
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #3c6382;
+            padding: 12px 25px;
+            margin: 5px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #82ccdd;
+            color: #243b55;
+        }
+
+        /* Hoofdinhoud */
+        main {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        main p {
+            line-height: 1.7;
+        }
+
+        /* Contactformulier */
+        form {
+            background-color: white;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #3c6382;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #82ccdd;
+            color: #243b55;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #243b55;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header met menu -->
+    <header>
+        <h1>Contact</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="overmij.html">Over mij</a>
+            <a href="hobby.html">Mijn hobby's</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contactformulier -->
+    <main>
+        <h2>Neem contact met mij op!</h2>
+
+        <p>
+            Heb je vragen over mijn kattenasiel of wil je meer weten
+            over het adopteren van een kat? Vul dan het onderstaande
+            contactformulier in. Ik neem zo snel mogelijk contact met je op!
+        </p>
+
+        <form action="#" method="post">
+
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam"
+                   placeholder="Vul je naam in" required>
+
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Vul je e-mailadres in" required>
+
+            <label for="onderwerp">Onderwerp:</label>
+            <input type="text" id="onderwerp" name="onderwerp"
+                   placeholder="Waar gaat je bericht over?" required>
+
+            <label for="bericht">Bericht:</label>
+            <textarea id="bericht" name="bericht"
+                      placeholder="Schrijf hier je bericht..."
+                      required></textarea>
+
+            <button type="submit">Verstuur bericht</button>
+
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mijn persoonlijke website. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
+</html>
